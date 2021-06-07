@@ -1,0 +1,249 @@
+/* Google Fonts Links */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+/* End Google Fonts Links */
+
+body{
+    font-family: 'Lato', sans-serif;
+    
+    color: #999999;
+}
+input{
+    font-family: 'Lato', sans-serif;
+}
+textarea{
+    font-family: 'Lato', sans-serif;
+}
+
+/* Start Header Area */
+    header{
+        background: #f6f9f9;
+        padding: 20px 0;
+    }
+    .logo{
+        width: 120px;
+    }
+/* End Header Area */
+
+/* Start Banner Section */
+.banner{
+    background: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 200px 0 100px;
+}
+.banner h1{
+    font-size: 58px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.tittle-border{
+    width: 300px;
+    margin: 15px auto 20px;
+    height: 2px;
+    background: #15a4fa;
+}
+.banner p{
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.florida{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background: transparent;
+    padding: 12px 14px;
+}
+.banner .fa{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 200px;
+}
+/* End Banner Section */
+
+/* Start About Section */
+.about{
+    padding: 75px 0;
+    background: #f6f9f9;
+}
+.about h2{
+    text-align: center;
+    font-size: 36px;
+    color: #2d3950;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.about p{
+    text-align: center;
+    font-size: 18px;
+    padding: 0 30px;
+}
+/* End About Section */
+
+/* Start Icon Section */
+.icon{
+    padding: 75px 0;
+}
+.icon .photo{
+    display: block;
+    margin: 0 auto;
+}
+.icon h3{
+    font-size: 20px;
+    text-align: center;
+    color: #2d3950;
+    margin: 25px 0 10px;
+}
+.icon p{
+    font-size: 14px;
+    text-align: center;
+    padding: 0 30px;
+}
+/* End Icon Section */
+
+/* Start Work Section */
+.work{
+    background: #f6f9f9;
+    padding: 75px 0;
+}
+.work h2{
+    text-align: center;
+    font-size: 36px;
+    color: #2d3950;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.work p{
+    text-align: center;
+    font-weight: 14px;
+    padding: 0 30px;
+    margin-bottom: 50px;
+}
+.work-item{
+    position: relative;
+    overflow: hidden;
+    /* width: 360px;
+    height: 260px; */
+    margin: 0 auto 22px;
+    object-fit: cover;
+}
+.item-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(44,172,247,1);
+    top: 0;
+    right: -100%;
+    transition: .5s ease-in-out;
+    text-align: center;
+}
+.work .work-item:hover .item-hover{
+    background: rgba(44,172,247,.8);
+    right: 0;
+} 
+.item-hover ul{
+    padding: 0;
+    display: block;
+    margin-top: 110px;
+}
+.item-hover ul li{
+    text-decoration: none;
+    display: inline;
+}
+.item-hover ul li .fa{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    margin: 5px;
+}
+/* End Work Section */
+
+/* Start Stay Area */
+.stay{
+    background: url(../img/ft-background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 50px 0 100px;
+}
+.form-group input{
+    background: transparent;
+}
+.form-group textarea {
+    background: transparent;
+}
+.stay h2{
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    word-spacing: 3px;
+}
+.stay p{
+    text-align: center;
+    font-size: 14px;
+    margin: 15px 0 50px;
+    padding: 0 30px;
+    color: #fff;
+}
+.form-button{
+    margin-top: 20px;
+}
+.cube{
+    background: transparent;
+}
+.strict input{
+    margin-top: 15px;
+}
+.strict label{
+    margin-top: 13px;
+    font-size: 14px;
+}
+/* End Stay Area */
+
+/* Start Footer Area */
+.footer{
+    padding: 25px 0;
+    background: #f6f9f9;
+}
+.footer p{
+    font-size: 14px;
+    margin-top: 9px;
+    color: #b2b5ba;
+    font-weight: 500;
+}
+.social{
+    text-align: right;
+}
+.social ul{
+    padding: 0;
+}
+.social ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 3px;
+}
+.social ul li .fa{
+    background: #15a4fa;
+    width: 35px;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 35px;
+    filter: grayscale(1);
+    transition: .5s ease filter;
+}
+.social ul li .fa:hover{
+    filter: grayscale(0);
+}
+/* End Footer Area */
