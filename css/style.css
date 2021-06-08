@@ -175,12 +175,6 @@ textarea{
     background-size: cover;
     padding: 50px 0 100px;
 }
-.form-group input{
-    background: transparent;
-}
-.form-group textarea {
-    background: transparent;
-}
 .stay h2{
     font-size: 36px;
     text-align: center;
@@ -195,18 +189,26 @@ textarea{
     padding: 0 30px;
     color: #fff;
 }
-.form-button{
-    margin-top: 20px;
+.form-group{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.form-group input{
+    background: transparent;
+}
+.form-group textarea{
+    background: transparent;
 }
 .cube{
     background: transparent;
 }
-.strict input{
-    margin-top: 15px;
+.some{
+    margin-top: 12px;
 }
-.strict label{
-    margin-top: 13px;
-    font-size: 14px;
+.new{
+   font-size: 14px;
+   margin-top: 11px;
 }
 /* End Stay Area */
 
